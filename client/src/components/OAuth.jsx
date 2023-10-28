@@ -33,8 +33,6 @@ export default function OAuth() {
         }
     };
     return (
-
-
         <button
             onClick={handleGoogleClick}
             type='button'
@@ -42,7 +40,5 @@ export default function OAuth() {
         >
             Continue with google
         </button>
-
-
     );
 }
